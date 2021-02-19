@@ -1,0 +1,128 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+ body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* color: rgb(145, 143, 143); */
+    background-image: url("img.jpg");
+    background-image: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size:cover;
+    color: white;
+}
+
+
+ /* #header{
+     border: 2px solid pink;
+ } */
+
+
+#left, #mid, #right{
+    display:inline-block;
+    /* border: 1px solid red; */
+}
+#left {
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right: 25px;
+    
+}
+#left img {
+    width: 130px;
+    height: 118px;
+}
+
+#logoname {
+    font-weight: bolder;
+    line-height: 13px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+    color:#fd0202;
+    
+}
+
+
+#right {
+    float:right;
+    margin-top: 20px; 
+    margin-right:40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+#right img{
+    width: 125px;
+    height: 78px;    
+}
+
+
+#mid {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;  
+}  
+/* 
+.navbar {
+    display: inline-block;
+    text-align: center;
+}  */
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    border: 2px solid rgb(243, 9, 138);
+    
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+   transition: 0.6s ease;
+} 
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    font-weight: 400;
+    color: gray;
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 70px 20px;
+    padding: 10px;
+    width: 319px;
+    border-radius: 28px;
+}
+.container h1 {
+    text-align: center;
+}
+.container marquee{
+    color: blue;
+}
+.form-group input {
+    display: block;
+    width:fit-content;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.btn { display: block;
+    width: 74%;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+} 
