@@ -199,5 +199,46 @@
     color: gray;
     }
 
+
+    .container {
+        border: 2px solid white;
+        margin: 88px 8px;
+        padding: 5px;
+        width:min-content;
+        border-radius: 28px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .container marquee{
+        color: blue;
+    }
+    .form-group input {
+        display: block;
+        width:fit-content;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 7px auto;
+        font-size: 16px;
+        border-radius: 11px;
+    }
+    .btn { display: block;
+        width: 61%;
+        margin: 20px auto;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px; 
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    } 
+    
+
+
+
     
 }
