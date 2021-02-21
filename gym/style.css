@@ -132,11 +132,7 @@
 
 
 
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: portrait){
+@media (max-width: 767px) and (device-height: 640px) {
     #left, #mid, #right{
         display:inline-block;
         /* border: 1px solid red; */
