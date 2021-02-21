@@ -132,7 +132,7 @@
 
 
 
-@media (max-width: 767px) and (device-height: 640px) {
+@media (max-width: 767px) {
     #left, #mid, #right{
         display:inline-block;
         /* border: 1px solid red; */
