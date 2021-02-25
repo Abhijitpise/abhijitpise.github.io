@@ -1,0 +1,115 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color:gray;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  #nav-list a {
+    color: white;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #38272a;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -59px;
+  }
+ 
+  #Menu-bar {
+    background-color:white;
+    /* border: 2px solid black; */
+    padding: 20px 35px 10px;
+    text-align: center;
+    color: black;
+ }
+ #par {
+background-color: gray;
+padding: 5px;
+margin: 10px 10px 15px;
+position: relative;
+
+ }
+ #Vada-Pav{
+     text-align: center;
+     padding: 5px 10px;
+ }
+
+  
+  .linked{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid rgb(192, 63, 63);
+    padding: 5px;
+  }
+   .cen{
+     text-align: center;
+   }
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { 
+      padding-top: 10px;
+      font-size: 5vw; 
+    }
+    #collapsable-nav a { 
+      font-size: 1.2em;
+    }
+    }
+  
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { 
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    
+  .linked{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid rgb(192, 63, 63);
+    padding: 5px;
+    font-size: 3.5vw;
+  }
+    }
+  
+  
+  
+  
