@@ -50,7 +50,7 @@ marquee{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:20px;
-  text-align: center;
+  /* text-align: center; */
 }
 .contact form label{
   display:block;
@@ -126,6 +126,9 @@ ul{
   }
 
   .head1 h2, .head1 ul, .brand{
+    text-align: center;
+  }
+  .contact form{
     text-align: center;
   }
 }
