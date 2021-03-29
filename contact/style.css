@@ -95,13 +95,13 @@ ul{
   list-style: none;
   padding:0;
 }
-.foot{
+/* .foot{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:20px;
   text-align: center;
   grid-column: 4 / 3;
-}
+} */
 
 
 
